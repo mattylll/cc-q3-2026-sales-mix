@@ -1,0 +1,30 @@
+{
+  "research_id": "CC-DF-2026Q3-C03",
+  "version": "1.0",
+  "published_on": "2026-10-12",
+  "author": "Matt Lenzie",
+  "publisher": "Construction Capital",
+  "parent_study": "CC-DF-2026Q3-03",
+  "source_edition": "2026-10-05",
+  "source_commit": "44ec7821f8bac827de198d09b4cca66725eae055",
+  "source_url": "https://www.kaggle.com/datasets/constructioncapital/q3-2026-housing-sales-registration-lag-and-mix",
+  "source_latest_transaction_date": "2026-08-28",
+  "source_files": {
+    "property_mix.csv": "69740dabf087fa8d72c01aeea42c7a05c65bb7a061b9bca03377db5382595eba",
+    "recorded_sales.csv": "61240f34c7d59bc6a596b72b696e653a21a119fd93051588c3ac83c53266b412"
+  },
+  "method": "Half the sum of absolute differences of four count-derived percentage shares. Output CSV rounded to six decimals; display to two.",
+  "source_rows": {
+    "property_mix": 480,
+    "recorded_sales": 120
+  },
+  "derived_rows": {
+    "regional_mix_distances": 7,
+    "annual_mix_distances": 8
+  },
+  "new_observations": false,
+  "independent_study": false,
+  "public_url": null,
+  "repository_url": null,
+  "limits": "Category A recorded transactions; custom overlapping geographies; Q3 2026 provisional. No completeness, price adjustment, causal, valuation or offer inference."
+}
