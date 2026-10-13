@@ -1,0 +1,13 @@
+{
+  "source_sha256": "61240f34c7d59bc6a596b72b696e653a21a119fd93051588c3ac83c53266b412",
+  "rows": 120,
+  "geographies": 8,
+  "quarters": 15,
+  "new_build_share_blank": 40,
+  "lag_true": 24,
+  "share_present_lag_false": 80,
+  "share_blank_lag_false": 16,
+  "share_blank_lag_true": 24,
+  "share_present_lag_true": 0,
+  "method": "Count blank strings and exact boolean strings separately; no imputation, transaction weighting or independence assumption."
+}

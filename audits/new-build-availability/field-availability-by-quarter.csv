@@ -1,0 +1,16 @@
+quarter,geography_quarter_rows,new_build_share_present_rows,new_build_share_withheld_rows,lag_flag_true_rows,withheld_share_and_lag_false_rows
+2023-Q1,8,8,0,0,0
+2023-Q2,8,8,0,0,0
+2023-Q3,8,8,0,0,0
+2023-Q4,8,8,0,0,0
+2024-Q1,8,8,0,0,0
+2024-Q2,8,8,0,0,0
+2024-Q3,8,8,0,0,0
+2024-Q4,8,8,0,0,0
+2025-Q1,8,8,0,0,0
+2025-Q2,8,8,0,0,0
+2025-Q3,8,0,8,0,8
+2025-Q4,8,0,8,0,8
+2026-Q1,8,0,8,8,0
+2026-Q2,8,0,8,8,0
+2026-Q3,8,0,8,8,0
