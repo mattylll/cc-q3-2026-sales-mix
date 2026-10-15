@@ -1,0 +1,37 @@
+{
+  "research_id": "CC-DF-2026Q3-V03",
+  "version": "1.0",
+  "published_date": "2026-10-15",
+  "source_edition": "2026-10-05",
+  "source_study": "CC-DF-2026Q3-03",
+  "source_commit": "44ec7821f8bac827de198d09b4cca66725eae055",
+  "author": "Matt Lenzie",
+  "affiliation": "Construction Capital",
+  "new_observations": false,
+  "independent_study": false,
+  "source_url": "https://www.kaggle.com/datasets/constructioncapital/q3-2026-housing-sales-registration-lag-and-mix",
+  "scope": "England and Wales category A records, 7 custom regional groups, 2023 Q1 to provisional 2026 Q3. Latest Q3 transaction 28 August; September absent. Source national medians retained, not independently recomputed.",
+  "derived_fields": {
+    "source_national_median_gbp": "Retained unadjusted England and Wales source median; not constant quality.",
+    "equal_mean_of_regional_medians_gbp": "Arithmetic mean of seven regional medians; not pooled median or mean price.",
+    "count_weighted_mean_of_regional_medians_gbp": "sum(count*regional median)/sum(mapped regional counts); not pooled median or mean price.",
+    "equal_minus_source_gbp": "Equal shortcut less retained national source median.",
+    "weighted_minus_source_gbp": "Weighted shortcut less retained national source median.",
+    "weighted_difference_pct": "100*(weighted summary/source national median-1), not house-price growth.",
+    "synthetic_counterexample.csv": "Invented teaching values only; no observed transaction data."
+  },
+  "rights": "Source HMLR OGL v3.0; original commentary/visual CC BY 4.0; original code MIT; see SOURCE-LICENSE.txt",
+  "files": {
+    "index.html": "ee32fd91c8d3ccbb72e4510d9ea5ff802996be83f4dcf07851aa0ed354f85047",
+    "reproduce.py": "286d05ba8a9afe5e70a77323c0f1c60cfd6b812a0bf8362aadff814d2181a6d4",
+    "median_shortcuts.csv": "53ce8530b7ce6f0e5f1691a857ccf5d4eaf572fc1ef4a68ab2e6373e38c3fe0a",
+    "source_data_dictionary.json": "f58e93f97d57e57c7121093fab40baa4d443c5a39fcac10b5a3d915edfd414c5",
+    "q3_regional_inputs.csv": "14be1c233f8b1610ac7a0d154502700a645f91ad2d9db96469b8783af502695d",
+    "SOURCE-LICENSE.txt": "0910e99162278f7d3b7ef986d002da83a83cc2e9ca6218217a515af63bd981c5",
+    "upstream_source_manifest.json": "07d430e1ec30048a03d0ad1dee10e51d7a5c90f639fc8ea6c26f904be9d0d561",
+    "synthetic_counterexample.csv": "b6a2f4604dcbd43c5aca8878eb46987910827fa83d9f810882823fc4a4f63d77",
+    "recorded_sales.csv": "61240f34c7d59bc6a596b72b696e653a21a119fd93051588c3ac83c53266b412",
+    "median-methods.png": "3f6e1777d4d081bc5815446cbda011383950931f9d766f4d210d4a8d0bdeaebc",
+    "regional_mapping_coverage.csv": "8e06b70a45fa7e3b11bc24606805741316f8a35e0686fcfb4d84263000d13120"
+  }
+}

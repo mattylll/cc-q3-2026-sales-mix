@@ -1,0 +1,44 @@
+{
+  "missing_values": "Empty CSV cells are missing/suppressed, not zero. Percentages are 0-100; ratios are fractions. No statistical independence is implied by rows.",
+  "tables": {
+    "property_mix.csv": {
+      "rows": 480,
+      "fields": {
+        "geography": "Panel, England and Wales, or one of seven custom regional groups; panel and national rows overlap their regional rows. Do not sum both.",
+        "quarter": "Calendar transaction or decision quarter YYYY-Qn; charge quarter follows source methodology. Periods have different data vintages.",
+        "property_type": "HMLR code D detached, S semi-detached, T terraced, F flats/maisonettes; source categories retained.",
+        "transactions_recorded": "Category A Price Paid records present in source vintage, grouped by transaction quarter. Source deduplicates IDs and excludes deleted rows.",
+        "share_pct": "Property-type count / same geography-quarter recorded count * 100."
+      }
+    },
+    "monthly_counts.csv": {
+      "rows": 44,
+      "fields": {
+        "transaction_month": "Transaction month YYYY-MM, not month when record arrived in publication.",
+        "transactions_recorded": "Category A Price Paid records present in source vintage, grouped by transaction quarter. Source deduplicates IDs and excludes deleted rows."
+      }
+    },
+    "recorded_sales.csv": {
+      "rows": 120,
+      "fields": {
+        "geography": "Panel, England and Wales, or one of seven custom regional groups; panel and national rows overlap their regional rows. Do not sum both.",
+        "quarter": "Calendar transaction or decision quarter YYYY-Qn; charge quarter follows source methodology. Periods have different data vintages.",
+        "transactions_recorded": "Category A Price Paid records present in source vintage, grouped by transaction quarter. Source deduplicates IDs and excludes deleted rows.",
+        "median_price_gbp": "Source unadjusted median transaction price in GBP, withheld below 30 records. Not independently reconstructible from aggregates and not a constant-quality price index.",
+        "new_build_share_pct": "Source percentage; recent values withheld for lag concerns. Empty means missing/suppressed, never zero.",
+        "source_lag_affected": "Upstream heuristic flag using elapsed time and historical count comparisons. Not a measured completeness percentage.",
+        "recorded_ratio_vs_previous_year": "Current recorded count divided by same-quarter prior-year count; blank when no positive comparator. Not an estimate of eventual completeness."
+      }
+    },
+    "regional_mapping_coverage.csv": {
+      "rows": 15,
+      "fields": {
+        "quarter": "Calendar transaction or decision quarter YYYY-Qn; charge quarter follows source methodology. Periods have different data vintages.",
+        "national_transactions": "England and Wales category A recorded transactions.",
+        "mapped_transactions": "Sum of recorded transactions across seven regional groups.",
+        "unmapped_transactions": "National minus mapped transactions; retained unallocated.",
+        "mapped_share_pct": "100 * mapped_transactions / national_transactions."
+      }
+    }
+  }
+}

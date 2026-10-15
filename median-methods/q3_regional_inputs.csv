@@ -1,0 +1,8 @@
+geography,quarter,transactions_recorded,median_price_gbp,new_build_share_pct,source_lag_affected,recorded_ratio_vs_previous_year
+East of England,2026-Q3,7262,340000,,True,0.2992171405026782
+London & South East,2026-Q3,16817,425000,,True,0.2962617151715876
+Midlands,2026-Q3,10994,255000,,True,0.28609347350889974
+North East & Yorkshire,2026-Q3,8618,200000,,True,0.28506218576342945
+North West,2026-Q3,7567,229950,,True,0.2813220313777976
+South West,2026-Q3,7351,310000,,True,0.31700375177886064
+Wales,2026-Q3,3094,220000,,True,0.2798733604703754

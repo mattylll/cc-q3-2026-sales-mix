@@ -56,3 +56,8 @@ Cite: Lenzie, Matt (2026), *How different is your sales comparator?*, Constructi
 Contains HM Land Registry Price Paid Data, Crown copyright and database right 2026, licensed under the Open Government Licence v3.0. Original analysis and derived tables: CC BY 4.0. Original code: MIT, see `LICENSE-CODE.txt`. Source and commentary rights: `LICENSE.txt`. Source SHA256 values and edition details: `source_manifest.json`.
 
 Construction Capital is a trading name of Lenzie Consulting Ltd, registered in England and Wales, company number 08174104. We are a commercial finance broker and introducer, not a lender, and we are not authorised by the FCA. Where a deal is a regulated activity we arrange it through lenders who hold the relevant FCA permissions. Every figure is indicative, varies by lender and deal, and is never an offer of finance.
+
+
+## Median methods companion, 15 October 2026
+
+`median-methods/` contains CC-DF-2026Q3-V03, a distinct visual and methods adaptation of the same Q3 sales dataset. It compares two regional aggregation shortcuts with the retained national median across all 15 quarters, and supplies a synthetic non-identifiability counterexample. It includes its own unchanged source tables, derived CSVs, reproduction code, licence notes and backing archive. It is not an independent study.

@@ -1,0 +1,7 @@
+LICENSING AND ATTRIBUTION
+
+Original report text, charts and analytical explanations: copyright 2026 Matt Lenzie / Construction Capital, licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Attribute the author, report title, version and source platform, and identify changes. This licence does not imply endorsement.
+
+Original reproduce.py code: MIT licence. Permission is granted, free of charge, to use, copy, modify, merge, publish, distribute, sublicense and/or sell copies of this software, subject to retaining this notice. THE SOFTWARE IS PROVIDED AS IS, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
+
+Contains HM Land Registry Price Paid Data, Crown copyright and database right 2026, available under the Open Government Licence v3.0: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/. See https://www.gov.uk/guidance/about-the-price-paid-data for source scope and attribution. The original analytical report and code have the separate licences above.
