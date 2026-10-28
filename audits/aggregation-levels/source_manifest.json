@@ -1,0 +1,27 @@
+{
+  "research_id": "CC-DF-2026Q3-03",
+  "version": "1.0",
+  "prepared_at": "2026-10-05",
+  "author": "Matt Lenzie",
+  "affiliation": "Construction Capital",
+  "upstream_repository": "https://github.com/mattylll/constructioncapital",
+  "upstream_repository_access": "Private; public reproducibility begins from included aggregate inputs.json",
+  "commit": "44ec7821f8bac827de198d09b4cca66725eae055",
+  "source_files": [
+    {
+      "path": "data/report-datasets/q3-2026/sold.json",
+      "sha256": "361af8e5f525d981f447c4b19c78e57cff3cafc06d74b88fda97e52b1727c1b9"
+    }
+  ],
+  "scope": "The fixed England and Wales Price Paid extract contains 61,717 Q3 2026 records, with a latest transaction date of 28 August. Its 29.27% ratio to recorded Q3 2025 transactions is not a measured completeness percentage or a market decline. The report examines property mix, regional mapping and publication lag. Recent new-build shares remain blank, not zero; 14 Q3 transactions lack regional mapping. No nowcast or constant-quality price estimate is supplied.",
+  "public_context_url": "https://constructioncapital.co.uk/market-reports/london-and-south-east-market-overview-q3-2026-review",
+  "service_context_url": "https://constructioncapital.co.uk/services/development-finance/",
+  "reproduction": "python reproduce.py --output reproduced; standard library only. Does not rebuild upstream ETL or independently recalculate retained source statistics.",
+  "tables": {
+    "property_mix.csv": 480,
+    "monthly_counts.csv": 44,
+    "recorded_sales.csv": 120,
+    "regional_mapping_coverage.csv": 15
+  },
+  "no_private_entities": "No lender names, security trustees, company numbers, borrower records, addresses or transaction-level records included."
+}

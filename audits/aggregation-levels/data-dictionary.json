@@ -1,0 +1,14 @@
+{
+  "source_edition": "2026-10-05",
+  "source_study": "CC-DF-2026Q3-03",
+  "geographical_contract": "One England and Wales benchmark and seven publisher-defined, disjoint regional groups; residual unmapped records retained separately.",
+  "aggregation_audit.csv": {
+    "quarter": "Transaction quarter; 2023-Q1 to provisional 2026-Q3",
+    "national_records": "Original England and Wales transactions_recorded count",
+    "mapped_regional_records": "Sum of the seven declared regional-group counts",
+    "unmapped_records": "Original coverage-table residual; not an estimate of unregistered sales",
+    "unsafe_sum_of_all_rows": "Deliberately invalid national plus regional sum, for demonstration only",
+    "overstatement_records": "Unsafe sum minus national count",
+    "overstatement_pct": "100 times overstatement_records divided by national_records; six decimals; blank if denominator zero"
+  }
+}
