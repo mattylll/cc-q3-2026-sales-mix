@@ -1,0 +1,15 @@
+{
+  "source_sha256": "61240f34c7d59bc6a596b72b696e653a21a119fd93051588c3ac83c53266b412",
+  "source_edition": "2026-10-05",
+  "latest_transaction_date": "2026-08-28",
+  "regional_groups": 7,
+  "unchanged_ranks": 7,
+  "national_median_2026_q3_gbp": 295000.0,
+  "span_2025_q3_gbp": 245005.0,
+  "span_2026_q3_gbp": 225000.0,
+  "span_difference_gbp": -20005.0,
+  "median_falls": 5,
+  "median_unchanged": 2,
+  "q3_2026_national_records": 61717,
+  "q3_2026_mapped_records": 61703
+}

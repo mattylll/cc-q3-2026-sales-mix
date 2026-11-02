@@ -1,0 +1,16 @@
+{
+  "research_id": "CC-DF-2026Q3-A05",
+  "prepared_on": "2026-11-02",
+  "files_sha256": {
+    "reproduce.py": "f27a5e45e7c1eb90bc635c00cc0dc98c628a13f77dd4fb0fa2318602f27e21ce",
+    "README.md": "3a4ed780c95ee70d50c2b337d39feff4dd20200cee0638af912aea1bff9ed146",
+    "requirements-chart.txt": "de950d3b75e4ad1a760c121533e06390c84574f7dd0b53c0eaa742ab6d5c2f38",
+    "LICENSE.txt": "0910e99162278f7d3b7ef986d002da83a83cc2e9ca6218217a515af63bd981c5",
+    "parent_source_manifest.json": "07d430e1ec30048a03d0ad1dee10e51d7a5c90f639fc8ea6c26f904be9d0d561",
+    "recorded_sales.csv": "61240f34c7d59bc6a596b72b696e653a21a119fd93051588c3ac83c53266b412",
+    "derived/selected_source_rows.csv": "1f66c2342f4d1590259e0cf77ad96661a724db31bb680e432d933ba561dc4d44",
+    "derived/summary.json": "02128faea255883501cd52fdba3d73f611aaaccf67c5737f37fafdfbc5b95342",
+    "derived/regional-ranks.png": "0c46248de4a1892473364ad9367fdecfd77621e2d3185d7cc28358598a0b176c",
+    "derived/regional_rank_comparison.csv": "eb462dd14dda3498f6f6b510c6534fdf78d3789a48a0556a499953bb295cc0d8"
+  }
+}
